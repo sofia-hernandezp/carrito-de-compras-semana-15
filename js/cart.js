@@ -38,6 +38,10 @@ const campos = boleta.querySelectorAll('input[type="text"], input[type="number"]
   
 });
 
-  
+const inicio = document.getElementById("volverInicio");
+
+inicio.addEventListener("click", () =>{
+  window.location.href = "index.html";
+})
 });
   
